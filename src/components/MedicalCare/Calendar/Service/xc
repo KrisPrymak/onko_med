@@ -1,0 +1,9 @@
+<Modal
+        open={isModal}
+        onClose={handleCloseModal}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+				{modalType === 'change' ? <ChangeDateModal close={handleCloseModal}/> : <CancelCouponModal close={handleCloseModal}/>}
+				
+			</Modal>

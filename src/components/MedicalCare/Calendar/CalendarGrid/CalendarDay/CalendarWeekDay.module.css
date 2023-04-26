@@ -1,0 +1,32 @@
+.cell {
+	background: #ffffff;
+	border-top: 1px solid #bdbdbd;
+	color: #333333;
+
+	position: relative;
+	display: flex;
+	/* align-items: center; */
+	justify-content: end;
+}
+
+.dayNumber {
+	padding: 4px;
+}
+
+.dayNumberUnselected {
+	color: #bdbdbd;
+	padding: 4px;
+}
+
+.cellCurrent {
+	min-height: 115px;
+	min-width: 101px;
+	background: #E1EAFF;
+	border-top: 1px solid #2C60E3;
+	color: #2C60E3;;
+	position: relative;
+	display: flex;
+	/* align-items: center; */
+	justify-content: end;
+}
+

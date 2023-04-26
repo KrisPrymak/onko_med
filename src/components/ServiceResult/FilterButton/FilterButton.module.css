@@ -1,0 +1,19 @@
+.filterButton {
+    width: 350px;
+    height: 44px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    margin: 10px 0 15px;
+    cursor: pointer;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: white;
+}
+@media (max-width: 1099px) {
+    .filterButton {
+        width: 48%;
+    }
+}

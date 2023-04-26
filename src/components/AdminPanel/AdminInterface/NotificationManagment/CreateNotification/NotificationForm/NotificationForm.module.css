@@ -1,0 +1,33 @@
+.subtitle {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.form {
+	width: 635px;
+	border-bottom: 1px solid #bdbdbd;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+}
+
+.newsItem {
+	background-color: #efefef;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+}
+
+.newsItem__info {
+	font-size: 18px;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.newsItem__date {
+	color: #6c6c6c;
+	margin-top: 10px;
+	font-size: 18px;
+}

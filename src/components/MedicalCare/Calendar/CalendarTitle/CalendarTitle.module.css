@@ -1,0 +1,11 @@
+.title {
+	font-size: 30px;
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+
+@media(max-width: 760px){
+	.title{
+		text-align: center;
+	}
+}

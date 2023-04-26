@@ -1,0 +1,33 @@
+.title {
+  border-bottom: 1px solid #BDBDBD;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+
+.content div::before {
+  border: none;
+}
+
+.content__dropDownList {
+  margin-top: 25px;
+  width: 211px;
+}
+
+.content__dropDownList div svg {
+  color: #2c60e3;
+}
+
+@media (max-width: 1099px) {
+  .content {
+    margin-bottom: 50px;
+  }
+}
+
+.blur {
+  filter: blur(4px);
+  pointer-events: none;
+}

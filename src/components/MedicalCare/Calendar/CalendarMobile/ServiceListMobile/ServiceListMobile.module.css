@@ -1,0 +1,19 @@
+.serviceList{
+	display: flex;
+	width: 22px;
+	justify-content: space-between;
+}
+
+.appointment{
+	width: 10px;
+	height: 10px;
+	background-color: #45B97C;
+	border-radius: 50%;
+}
+
+.research {
+	width: 10px;
+	height: 10px;
+	background-color: #DD4C4C;
+	border-radius: 50%;
+}

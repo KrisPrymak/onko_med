@@ -1,0 +1,26 @@
+.notificationItem {
+    border-radius: 5px;
+    background-color: rgba(239, 239, 239, 1);
+    padding: 10px 20px;
+    margin: 15px 0;
+    width: 730px;
+}
+.notification {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.time {
+    color: rgba(108, 108, 108, 1);
+}
+@media (max-width: 1109px) {
+    .notificationItem {
+        width: 100%;
+    }
+}
+@media (max-width: 375px) {
+    .notificationItem {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,20 @@
+.serviceItem {
+    background-color: rgba(239, 239, 239, 1);
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.serviceItem__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.serviceItem__date {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+

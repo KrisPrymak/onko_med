@@ -1,0 +1,48 @@
+.checkboxGroup {
+	margin-left: -8px;
+    margin-top: 31px;
+}
+
+.checkbox {
+	position: absolute;
+	opacity: 0;
+}
+
+.checkboxText {
+	color: #333333;
+	margin-left: 8px;
+    font-size: 16px;
+	/* text-decoration: underline; */
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.checkboxText::before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 21px;
+	height: 21px;
+	background-size: 20px;
+	border: 1px solid #2c60e3;
+	border-radius: 5px;
+	margin-right: 8px;
+}
+
+.checkbox:checked ~ .checkboxText::before {
+	background-image: url('./../../../media/checkbox-checked.svg');
+}
+
+.checkboxText,
+.checkboxText > a {
+	font-size: 16px;
+}
+
+.checkboxText > a:visited {
+	color: #2c60e3;
+}

@@ -1,0 +1,57 @@
+.subtitle {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+.form {
+	width: 635px;
+	border-bottom: 1px solid #bdbdbd;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+}
+/* 
+.newsItem {
+	background-color: #efefef;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+} */
+
+/* .newsItem__info {
+	font-size: 18px;
+} */
+
+.bold {
+	font-weight: 700;
+}
+
+/* .newsItem__date {
+	color: #6c6c6c;
+	margin-top: 10px;
+	font-size: 18px;
+} */
+
+ .dateInput::before { 
+	content: attr(data-placeholder);
+	width: 100%;
+}
+
+.dates {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.dates div {
+	width: 300px;
+	height: 44px;
+}
+/* .dates div div input {
+	background-color: aqua;
+} */
+
+/* hide our custom/fake placeholder text when in focus to show the default
+ * 'mm/dd/yyyy' value and when valid to show the users' date of birth value.
+ */
+ /* .dateInput:focus::before, */
+ /* .dateInput:valid::before { display: none } */ 

@@ -1,0 +1,200 @@
+
+
+.window {
+	width: 730px;
+	border-radius: 5px;
+	padding: 25px 30px 60px 65px;
+	background-color: white;
+	margin: 0 auto;
+
+}
+
+.content {
+	width: 100%;
+	padding-top: 35px;
+	padding-right: 35px;
+	position: relative;
+}
+
+.crossBtn {
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 15px;
+	right: 0;
+	top: 0;
+}
+
+.main {
+	width: 100%;
+}
+
+.title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	border-bottom: 1px solid #bdbdbd;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.topInfo {
+	display: flex;
+	padding: 0px 30px 15px;
+	border-bottom: 1px solid #bdbdbd;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.bottomInfo {
+	padding: 15px 30px 0px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 15px;
+}
+
+.infoItem {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.infoItemName {
+	width: 114px;
+	height: 19px;
+	margin-right: 76px;
+}
+
+.infoItemValue {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.selects {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.dateSelect {
+	width: 255px;
+}
+
+.timeSelect {
+	width: 255px;
+}
+
+.selectTitle {
+	font-weight: 700;
+	color: #333333;
+	margin-bottom: 8px;
+}
+
+
+@media(max-width: 765px){
+	.window {
+		width: 343px;
+		border-radius: 5px;
+		padding: 60px 15px 0px;
+		position: relative;
+
+	}
+	
+	.content {
+		width: 100%;
+		padding: 0px;
+	}
+	
+	.crossBtn {
+		position: absolute;
+		right: 0;
+		top: -35px;
+	}
+	
+	.main {
+		width: 100%;
+	}
+	
+	.title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 24px;
+		text-align: center;
+		border-bottom: 1px solid #bdbdbd;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+	
+	.topInfo {
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid #bdbdbd;
+		font-weight: 400;
+		padding: 0px 0px 15px;
+	}
+	
+	.bottomInfo {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		padding: 0px;
+		padding-top: 15px;
+		margin-bottom: 15px;
+	}
+	
+	.infoItem {
+		display: flex;
+		margin-bottom: 10px;
+	}
+	
+	.infoItemName {
+		width: 114px;
+		height: 19px;
+		margin-right: 50px;
+	}
+	
+	.infoItemValue {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 19px;
+	}
+	
+	.selects {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+	
+	.dateSelect {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.timeSelect {
+		width: 100%;
+	}
+	
+	.selectTitle {
+		font-weight: 700;
+		color: #333333;
+		margin-bottom: 8px;
+	}
+}
+
+@media(max-width: 365px)
+{
+	.window {
+		width: 310px;
+		border-radius: 5px;
+		padding: 60px 15px 0px;
+		position: relative;
+
+	}
+	
+	
+}

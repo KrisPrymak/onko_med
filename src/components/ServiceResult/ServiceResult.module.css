@@ -1,0 +1,30 @@
+/*.title {*/
+/*    height: 75px;*/
+/*    font-weight: 700;*/
+/*    font-size: 30px;*/
+/*    border-bottom: 1px solid #BDBDBD;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+.serviceItemsList {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 15px 30px;
+}
+
+.serviceFilterOption {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1099px) {
+    .serviceItemsList {
+        display: block;
+    }
+
+    .serviceItemsList {
+        display: block;
+    }
+}

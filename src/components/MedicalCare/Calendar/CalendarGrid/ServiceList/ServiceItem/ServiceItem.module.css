@@ -1,0 +1,58 @@
+.service {
+	width: 90px;
+	height: 17px;
+}
+
+.serviceName {
+	font-size: 14px;
+	line-height: 17px;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+
+.appointment::before {
+	content: '';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #45b97c;
+	border-radius: 50%;
+	position: absolute;
+	margin: 0 auto;
+	left: 0px;
+	top: 6px;
+}
+
+.research::before {
+	content: '';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #dd4c4c;
+	border-radius: 50%;
+	position: absolute;
+	margin: 0 auto;
+	left: 0px;
+	top: 6px;
+}
+
+.serviceList {
+	max-width: 75px;
+	max-height: 17px;
+	align-self: center;
+}
+
+ul {
+	list-style: none;
+}
+
+a:active,
+a:hover,
+a {
+	text-decoration: none;
+	color: #333333;
+}

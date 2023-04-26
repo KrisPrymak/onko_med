@@ -1,0 +1,33 @@
+.cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cellCurrent {
+	color: #B8B8B8;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dayNumber{
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 3px;
+}
+
+.dayNumberCurrent{
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	color: white;
+	background-color: #2C60E3;
+	padding-top: 5px;
+	border-radius: 5px;
+	margin-bottom: 3px;
+}

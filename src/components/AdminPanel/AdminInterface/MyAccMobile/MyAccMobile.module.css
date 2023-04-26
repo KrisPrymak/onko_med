@@ -1,0 +1,10 @@
+.myAccountButton {
+    display: none;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1099px) {
+    .myAccountButton {
+        display: block;
+    }
+}

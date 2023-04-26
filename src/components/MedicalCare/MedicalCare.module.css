@@ -1,0 +1,68 @@
+.medicalCare__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.medicalCare__content {
+    max-width: 730px;
+    width: 100%;
+}
+
+.localPreloader {
+    
+}
+
+/*.medicalCare__title {*/
+/*    height: 75px;*/
+/*    font-weight: 700;*/
+/*    font-size: 30px;*/
+/*    border-bottom: 1px solid #BDBDBD;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.medicalCare__title::after {*/
+/*    content: "";*/
+/*    border-bottom: 1px solid #BDBDBD;*/
+/*    width: 730px;*/
+/*    display: block;*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 15px;*/
+/*  }*/
+
+@media (min-width: 1100px) {
+    .medicalCare {
+        padding: 120px 165px;
+    }
+
+    .medicalCare__content {
+        margin-left: 31px;
+    }
+}
+
+@media (max-width: 1099px) {
+    .medicalCare {
+        padding: 0 16px
+    }
+
+    .medicalCare__container {
+        flex-direction: column;
+    }
+
+    .medicalCare__content {
+        padding: 0 16px;
+        width: 375px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+
+    .medicalCare__title {
+        margin-top: 15px;
+    }
+
+    .medicalCare__title::after {
+        width: 100%;
+    }
+}

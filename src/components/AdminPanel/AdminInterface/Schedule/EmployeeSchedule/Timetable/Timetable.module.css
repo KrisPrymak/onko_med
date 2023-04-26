@@ -1,0 +1,63 @@
+.timetableWrapper{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.timetable {
+	display: grid;
+	grid-template-rows: repeat(5, 70px);
+	width: 665px;
+	/* margin-bottom: 20px; */
+	border: #BDBDBD solid 1px;
+	border-radius: 5px;
+}
+
+.days{
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+}
+
+.day{
+	width: 35px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.hoursRow{
+	width: 665px;
+	display: grid;
+	grid-template-columns: 2fr repeat(13, 3fr) 1fr;
+}
+
+.rowWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.hourCell {
+	text-align: center;
+	font-weight: bold;
+}
+
+.hourCell:nth-child(odd){
+	font-size: 0;
+}
+
+
+
+.dayNamesRow {
+	display: grid;
+	grid-template-rows: (5, 1fr);
+}
+
+.dayName {
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+

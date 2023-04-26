@@ -1,0 +1,23 @@
+.newsItem {
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsItem__info {
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.newsItem__date {
+  color: #6c6c6c;
+  margin-top: 10px;
+  font-size: 18px;
+}

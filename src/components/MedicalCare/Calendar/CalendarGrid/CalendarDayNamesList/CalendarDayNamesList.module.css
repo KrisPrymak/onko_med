@@ -1,0 +1,12 @@
+
+.weekDayGrid {
+	display: grid;
+	grid-template-columns: repeat(7, 101px);
+}
+
+
+@media(max-width: 760px) {
+	.weekDayGrid {
+		grid-template-columns: repeat(7, 1fr);
+	}
+}

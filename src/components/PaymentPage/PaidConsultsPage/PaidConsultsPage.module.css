@@ -1,0 +1,39 @@
+.container {
+    
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.form__buttons {
+    display: contents;
+}
+
+.form svg {
+    margin-left: 5px;
+}
+
+.form__select div{
+    width: 350px;
+    height: 44px;
+}
+
+.form__select svg {
+    color: #757575;
+}
+
+@media (max-width: 1099px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .form__buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+}
+

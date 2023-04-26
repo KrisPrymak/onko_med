@@ -1,0 +1,78 @@
+.container {
+    margin-top: 25px;
+}
+
+.payButtons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.payButtons > button {
+    margin-right: 30px;
+}
+
+.payButtons button {
+    width: 255px;
+    margin-right: 30px;
+}
+
+.payHelp {
+    background: #FBFBFB;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: -25px;
+}
+
+@media (max-width: 1099px) {
+    .payButtons {
+        flex-direction: column;
+    }
+    .payButtons button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.blur {
+    filter: blur(4px);
+    pointer-events: none;
+  }
+
+.payButtonContainer {
+    display: flex;
+}
+
+.displayNone {
+    display: none;
+}
+
+.payMessage {
+    border: 1px solid #BDBDBD;
+    background: #FBFBFB;
+    padding: 15px;
+    max-width: 332px;
+    width: 100%;
+    margin-left: 31px;
+    position: relative;
+    top: -40px;
+    border-radius: 5px;
+    padding-top: 0;
+}
+
+.square {
+    border: 1px solid #BDBDBD;
+border-radius: 2px;
+transform: rotate(-318deg);
+background: #FBFBFB;
+width: 26px;
+height: 26px;
+position: relative;
+bottom: -40px;
+left: -28px;
+border-right: none;
+border-top: none;
+border-radius: 2px;
+}

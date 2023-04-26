@@ -1,0 +1,14 @@
+.info{
+    margin-top: 50px;
+}
+
+.listItem {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.infoName {
+    font-weight: bold;
+    min-width: 208px;
+    margin-right: 47px;
+}

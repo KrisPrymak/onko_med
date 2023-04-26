@@ -1,0 +1,11 @@
+.calendarWrapper {
+	width: 725px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+@media(max-width: 760px) {
+	.calendarWrapper{
+		width: 343px;
+	}
+}

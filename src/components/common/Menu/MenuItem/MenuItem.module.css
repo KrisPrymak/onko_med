@@ -1,0 +1,22 @@
+.item, .itemDisabled {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.item:hover {
+    background-color: rgba(128, 128, 128, 0.21);
+    padding: 10px;
+}
+
+.itemText {
+    font-size: 18px;
+    margin-left: 10px;
+    padding-right: 10px;
+}

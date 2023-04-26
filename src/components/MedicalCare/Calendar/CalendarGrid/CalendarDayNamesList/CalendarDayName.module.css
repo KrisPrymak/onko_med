@@ -1,0 +1,18 @@
+.weekDay {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.weekDayName {
+	padding-right: 4px;
+	margin-bottom: 6px;
+}
+
+@media (max-width: 760px) {
+	.weekDayName {
+		text-align: center;
+		padding-right: 4px;
+		margin-bottom: 6px;
+	}
+}

@@ -1,0 +1,26 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.text {
+    color: #333333;
+}
+
+.dates {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.dates div {
+    width: 50%;
+}

@@ -1,0 +1,89 @@
+
+
+.modal {
+	width: 730px;
+	margin: 0 auto;
+	padding: 60px 90px;
+	background-color: white;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 11px;
+}
+
+.title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+.text {
+	text-align: center;
+	font-size: 16px;
+	padding: 0px 60px;
+	margin-bottom: 30px;
+}
+
+.btnGroup {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+@media(max-width: 765px) {
+	.modal {
+		width: 343px;
+		height: 415px;
+		margin: 0 auto;
+		padding: 0px;
+	}
+	
+	.content {
+		padding: 60px 15px;
+	}
+	
+	.icon {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 11px;
+	}
+	
+	.title {
+		text-align: center;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 15px;
+	}
+	
+	.text {
+		text-align: center;
+		font-size: 16px;
+		padding: 0px 6px;
+		margin-bottom: 30px;
+	}
+	
+	.btnGroup {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* .btnGroup Button {
+		margin-bottom: 15px;
+	} */
+	
+}
+
+@media(max-width: 370px) {
+	.modal {
+		width: 300px;
+		height: 415px;
+		margin: 0 auto;
+		padding: 0px;
+	}
+}
+

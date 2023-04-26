@@ -1,0 +1,52 @@
+.dayName {
+	border-right: 1px solid #bdbdbd;
+}
+
+.row {
+	width: 665px;
+	display: grid;
+	grid-template-columns: 2fr repeat(13, 3fr) 1fr;
+	border-bottom: 1px solid #bdbdbd;
+	position: relative;
+	z-index: 1;
+}
+
+/* .row:first-child {
+	border-top: 1px solid #bdbdbd;
+	border-radius: 5px 5px 0px 0px;
+} */
+
+.cell {
+	border-right: 1px solid #cddbff;
+	display: flex;
+	align-items: center;
+}
+
+.cellSelected {
+	position: absolute;
+	z-index: 2;
+	background-color: #2c60e3;
+	height: 75%;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.cell:nth-last-child(-n + 1) {
+	border: none;
+}
+
+.rowWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.day {
+	width: 35px;
+	margin-right: 10px;
+	font-weight: bold;
+}

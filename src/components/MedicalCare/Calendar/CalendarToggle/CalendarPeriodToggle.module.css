@@ -1,0 +1,39 @@
+button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.BtnGroupWeek{
+	width: 142px;
+	/* display: flex; */
+	align-items: center;
+	justify-content: space-between;
+}
+
+.BtnGroupMonth{
+	/* width: 180px; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.selectedMonth {
+	text-transform: capitalize;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 24px;
+	color: #2c60e3;
+	padding: 0px 10px 5px;
+}
+
+.selectedWeek {
+	display: inline-block;
+	font-size: 20px;
+	line-height: 24px;
+	color: #2c60e3;
+	padding: 0px 10px 5px;
+}

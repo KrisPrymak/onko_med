@@ -1,0 +1,19 @@
+.auth__button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #2c60e3;
+  display: flex;
+  align-items: center;
+}
+
+.auth__text {
+  margin-left: 9px;
+}
+
+@media (max-width: 1099px) {
+  .auth__button {
+    order: 1;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,38 @@
+.bold {
+    font-weight: 700;
+}
+
+.searchForm__controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.searchForm__help, .searchForm__oms {
+  color: #333333;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  background: #fbfbfb;
+  padding: 15px;
+}
+
+.searchForm__oms {
+    background-color: #FDECEB;
+    border: 1px solid #F4877F;
+}
+
+.MuiOutlinedInput-root {
+    border: none;
+}
+
+@media (max-width: 1099px) {
+    .searchForm {
+        width: 100%;
+    }
+
+    .searchForm__controls:last-child {
+        margin-top: 10px;
+    }
+}

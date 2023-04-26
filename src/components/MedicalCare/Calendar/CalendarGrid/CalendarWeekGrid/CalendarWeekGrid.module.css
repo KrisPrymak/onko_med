@@ -1,0 +1,7 @@
+.weekGrid {
+	display: grid;
+	grid-template-columns: repeat(7, 101px);
+	grid-template-rows: repeat(1, 191px);
+	grid-column-gap: 3px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,73 @@
+.cell {
+	background: #ffffff;
+	border-top: 1px solid #bdbdbd;
+	color: #333333;
+	min-height: 115px;
+	min-width: 101px;
+
+
+	display: flex;
+	align-items: end;
+	flex-direction: column;
+	overflow: hidden
+}
+
+.cellCurrent {
+	background: #e1eaff;
+	border-top: 1px solid #2c60e3;
+	color: #2c60e3;
+	position: relative;
+	min-height: 115px;
+	min-width: 101px;
+
+
+	display: flex;
+	align-items: end;
+	flex-direction: column;
+}
+
+.dayNumber {
+	padding: 4px;
+	height: 19px;
+	margin-bottom: 12px;
+}
+
+.dayNumberUnselected {
+	padding: 4px;
+	height: 19px;
+	margin-bottom: 12px;
+	color: #B8B8B8;
+}
+
+
+.cellWeek {
+	background: #ffffff;
+	border-top: 1px solid #bdbdbd;
+	color: #333333;
+
+	position: relative;
+	display: flex;
+	/* align-items: center; */
+	justify-content: end;
+}
+
+.dayNumberWeek {
+	padding: 4px;
+}
+
+.dayNumberUnselectedWeek {
+	color: #bdbdbd;
+	padding: 4px;
+}
+
+.cellCurrentWeek {
+	min-height: 115px;
+	min-width: 101px;
+	background: #E1EAFF;
+	border-top: 1px solid #2C60E3;
+	color: #2C60E3;;
+	position: relative;
+	display: flex;
+	/* align-items: center; */
+	justify-content: end;
+}

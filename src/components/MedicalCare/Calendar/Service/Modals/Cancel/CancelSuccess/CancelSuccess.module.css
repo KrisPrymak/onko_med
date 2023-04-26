@@ -1,0 +1,37 @@
+.window {
+	width: 730px;
+	padding: 60px 0px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.content {
+	width: 255px;
+	margin: 0 auto;
+}
+
+.icon {
+	text-align: center;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+
+Button {
+	width: 100%;
+}
+
+@media(max-width: 745px) {
+	.window {
+		width: 343px;
+		padding: 60px 0px;
+	}
+	.content {
+		width: 255px;
+		margin: 0 auto;
+	}
+}

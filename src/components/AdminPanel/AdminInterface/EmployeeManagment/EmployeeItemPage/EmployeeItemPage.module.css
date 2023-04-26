@@ -1,0 +1,21 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fullname p:first-child, .name p:first-child, .patronymic p:first-child, .login p:first-child, .role p:first-child, .department p:first-child {
+    font-weight: 900;
+}
+
+.formData {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 55px;
+    flex-wrap: wrap;
+}
+
+.formData div {
+    width: 25%;
+    margin-bottom: 15px;
+}

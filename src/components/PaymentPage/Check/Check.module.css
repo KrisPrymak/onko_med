@@ -1,0 +1,74 @@
+.check__totalPrice {
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.check__btn {
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 320px;
+    height: 42px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+
+.check {
+    background-color: 
+    #EFEFEF;
+    padding: 30px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+/* check__item */
+
+.check__item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    align-items: flex-start;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.item__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.item__info {
+    display: flex;
+}
+
+.item__info_part {
+    display: flex;
+}
+
+.item__info_part > p {
+    margin-right: 20px;
+}
+
+
+.item__info_part:first-of-type {
+    margin-right: 75px;
+}
+
+.item__info_date {
+    font-weight: 700;
+}
+
+@media (max-width: 1099px) {
+    .item__info {
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    .item__info_date {
+        margin-left: 22px;
+    }
+}

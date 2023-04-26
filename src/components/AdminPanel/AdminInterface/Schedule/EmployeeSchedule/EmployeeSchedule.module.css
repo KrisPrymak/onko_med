@@ -1,0 +1,16 @@
+.info{
+	margin-top: 50px;
+	border-bottom: 1px solid #BDBDBD;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+li {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.infoName {
+	font-weight: bold;
+	min-width: 150px;
+}

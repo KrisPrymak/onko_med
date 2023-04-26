@@ -1,0 +1,9 @@
+.title {
+    height: 75px;
+    font-weight: 700;
+    font-size: 30px;
+    border-bottom: 1px solid #BDBDBD;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}

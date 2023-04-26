@@ -1,0 +1,11 @@
+.calendarTemplate {
+	width: 343px;
+	height: 360px;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+}
+
+.calendarMobile {
+	margin-bottom: 10px;
+}

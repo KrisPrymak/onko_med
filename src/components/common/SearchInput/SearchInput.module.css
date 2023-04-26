@@ -1,0 +1,36 @@
+.navigateInput {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input {
+    outline: none;
+    border: 1px solid #a2a2a2;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+.button {
+    box-sizing: border-box;
+    height: 100%;
+    width: 150px;
+    color: #ffffff;
+    background-color: #2c60e3;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.button:hover {
+   background-color: #244eb8;
+}
+.button:active {
+    background-color: #1d3f95;
+}
